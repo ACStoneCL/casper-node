@@ -1,6 +1,7 @@
 //! Asynchronous multiplexing
 
 pub mod backpressured;
+pub mod demux;
 pub mod error;
 pub mod fixed_size;
 pub mod fragmented;
